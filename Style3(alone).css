@@ -1,0 +1,73 @@
+.alone {
+    height: 52em;
+    width: 90%;
+    background: rgba(173, 255, 142, 0.2);
+    margin-left: 6em;
+    margin-bottom: 10em;
+    border-radius: 10em;
+    padding-left: 10em;
+    border: solid 0.04em;
+}
+.alonemodel h1 {
+    font-family:rounds;
+    color: rgba(0, 70, 152, 0.87);
+    background: rgba(255, 255, 255, 0.9);
+    width: 8em;
+    height: 6em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em
+}
+.alonemodel h1:hover {
+    color: rgb(0, 70, 152);
+    background: rgb(255, 255, 255);
+}
+.alonemodel h1 a {
+    font-family: cheeseusaceu
+}
+.alonemodel img {
+    border-radius: 1em;
+    height: 35em;
+    border: solid 5px rgb(255, 207, 207);
+}
+.alonemodel img:hover {
+    box-shadow: 0em 0em 10em 2em rgb(255, 255, 255);
+}
+.alonemodel p {
+    z-index: 2;
+    margin-left: 20em;
+    margin-top: -21em;
+    font-family: cheeseusaceu;
+    font-size: 30px;
+    color: white;
+    background: rgba(3, 3, 3, 0.3);
+}
+.alonemodel p:hover {
+    box-shadow: -1em 0em 2em 0.2em rgba(65, 65, 65, 0.49);
+    background: rgba(3, 3, 3, 0.92)
+}
+#spid {
+    background: url(https://oss.adm.ntu.edu.sg/bleow001/wp-content/uploads/sites/1770/2017/11/e8ssljkntvmy.png)
+}
+#lsd {
+    background: url(https://pp.userapi.com/c851224/v851224344/727ba/9_JnHNdC6s4.jpg)
+}
+#overld {
+    background: url(https://pp.userapi.com/c851532/v851532912/75509/XUBUkwuY8nY.jpg)
+}
+#gboy, #mfs {
+    background: url(https://pp.userapi.com/c844521/v844521715/163ac6/oQwu0DNf1fU.jpg)
+}
+#s104 {
+    background: url(https://pp.userapi.com/c850616/v850616476/74605/mp0chuh_HLU.jpg);
+    background-size: cover
+}
+#art {
+    background: url(https://img-fotki.yandex.ru/get/15584/127908635.65b/0_126a5f_eb167129_orig.jpg) no-repeat center;
+    background-size: cover
+}
+#chsv {
+    background: url(https://economics.studio/files/uch_group40/uch_pgroup144/uch_uch6723/image/44.jpg)
+}
+iframe {
+    margin-left: 37.5em
+}

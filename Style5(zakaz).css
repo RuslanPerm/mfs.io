@@ -1,0 +1,69 @@
+.zakaz {
+    border-radius: 1em;
+    height: 45em;
+    width: 30em;
+    border: solid 0.1em rgb(255, 207, 207);
+    margin-top: -11em;
+}
+#zakazlsd {
+    background: url(photos/products/lsd.jpg) center;
+    background-size: cover
+}
+#zakazlsd:hover {
+    transform: rotateZ(360deg);
+    background: url(photos/products/lsdback.jpg) center;
+    background-size: cover
+}
+#zakaz104 {
+    background: url(photos/products/104_111.jpg) center;
+    background-size: cover
+}
+#zakaz104:hover {
+    transform: rotateZ(360deg);
+    background: url(photos/products/104back.jpg) center;
+    background-size: cover
+}
+#zakazover {
+    background: url(photos/products/over%D0%BB%D1%91%D0%B4.jpg) center;
+    background-size: cover
+}
+#zakazover:hover {
+    transform: rotateZ(360deg);
+    background: url(photos/products/over%D0%BB%D1%91%D0%B4back.jpg) center;
+    background-size: cover
+}
+#zakazspid {
+    background: url(photos/products/S.P.I.D..jpg) center;
+    background-size: cover
+}
+#zakazspid:hover {
+    transform: rotateZ(360deg);
+    background: url(photos/products/spidback.jpg) center;
+    background-size: cover
+}
+#zakazart {
+    background: url(photos/products/art.jpg) center;
+    background-size: cover
+}
+#zakazchsv {
+    background: url(photos/products/chsv.jpg) center;
+    background-size: cover
+}
+#zakazchsv:hover {
+    transform: rotateZ(360deg);
+    background: url(photos/products/chsvback.jpg) center;
+    background-size: cover
+}
+button {
+    height: 3em;
+    width: 10em;
+    background: #e2ff00;
+    margin-left: 20em;
+    font-family: rounds;
+    font-size: 2em;
+    border-radius: 3em;
+}
+button:hover {
+    box-shadow: 0px 0px 100px 100px;
+    color: rgba(255, 0, 0, 0.61)
+}

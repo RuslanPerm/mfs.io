@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import "http://fonts.fontstorage.com/import/rounds.css";
+@import "http://fonts.fontstorage.com/import/cheeseusaceu.css";
+#navbarSupportedContent {
+    background: rgba(229, 179, 255, 0.56);
+    border-radius: 10px;
+}
+form {
+    margin-left: 4em;
+    margin-top: 1.9em;
+    font-family: cheeseusaceu;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff4fc2;
+    margin-bottom: 1.4em
+}
+input, textarea {
+    padding-left: 1em;
+    height: 1.5em;
+    width: 25em;
+    border: dashed 5px rgb(255, 255, 255);
+    font-family: cheeseusaceu;
+    font-size: 1em;
+    background: rgba(80, 235, 255, 0.22);
+    border-radius: 3em
+}
+#card1, #card, #card2 {
+    position: fixed;
+    margin-left: 30em;
+    margin-top: -20em;
+    color: #000000;
+    background: #fdfdfd;
+    border-radius: 3em;
+    padding: 0.7em
+}
+#card1 {
+    margin-top: -18em;
+}
+#ready {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: rounds;
+}
+#card2 {
+    margin-top: -15.1em;
+    font-family: cursive;
+    font-size: 0.9em;
+}
+b {
+    color: rgb(255, 76, 241)
+}

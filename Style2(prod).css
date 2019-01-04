@@ -1,0 +1,107 @@
+.prodarticle {
+    margin-top: 19%;
+}
+#prodarticle {
+    margin-bottom: 100em
+}
+.t-shirt {
+    float:left;
+    margin-left: 7%;
+    padding-top: 15%;
+    padding-left: 2em;
+    margin-bottom: 15%;
+}
+#model1:hover, #model2:hover, #model3:hover, #model4:hover, #model5:hover, #model6:hover, #model7:hover, #model8:hover {
+    border-radius: 0px;
+    box-shadow: 0px 0px 200px 100px rgb(255, 255, 255);
+}
+#model1, #model2, #model3, #model4, #model5, #model6, #model7, #model8 {
+    height: 420px;
+    width: 300px;
+    border-radius: 4em;
+    background: url(https://pp.userapi.com/c844521/v844521715/163ac6/oQwu0DNf1fU.jpg) center;
+}
+#model2 {
+    background: url(photos/products/S.P.I.D.pre.jpg) center
+}
+
+#model3 {
+    background: url(photos/products/lsdpre.jpg) center   
+}
+#model4 {
+    background: url(photos/products/over%D0%BB%D1%91%D0%B4pre.jpg) center   
+}/*
+#model5 {
+    background: url()   
+}*/
+#model6 {
+    background: url(photos/products/104_111pre.jpg) center
+}
+#model7 {
+    background: url(photos/products/art.jpg) center;
+    background-size: cover   
+}
+#model8 {
+    background: url(photos/products/chsv.jpg) center;
+    background-size: cover
+}
+.t-shirt #name {
+    padding: 15px;
+    font-size: 30px;
+    font-family: cheeseusaceu;
+    opacity: 0.5;
+    background-color: #000000;
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+}
+.t-shirt #name:hover {
+    opacity: 0.9;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    background-color: #ffffff;
+    color: #000000;
+}
+#prodtitle, #prodtitle1 {
+    float: left;
+    margin-left: 32%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-family: rounds;
+    font-size: 35px;
+    color: rgba(104, 116, 255, 0.62);
+}
+#prodtitle1 {
+    margin-left: 28.5%;
+}
+#prodtitle:hover, #prodtitle1:hover {
+    color: rgb(0, 0, 0);
+    background: url(https://pp.userapi.com/c849024/v849024919/e5876/MEEm_vXw-us.jpg) center;
+}
+#konkurs {
+    opacity: 0.9;
+    margin-top: 80em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    font-size: 1.5em;
+    font-family: cheeseusaceu;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 3em;
+    border: dashed 4px rgba(167, 0, 255, 0.19);
+    z-index: 9;
+}
+#konkurs:hover{
+    opacity: 1;
+    border: dashed 4px rgb(167, 0, 255);
+    border-radius: 5em;
+}
+#konkurs ul, #konkurs ol {
+    background: rgb(255, 255, 255);
+    width: 23em
+}
+#present {
+    margin-left: 40em;
+    margin-top: -8em;
+}

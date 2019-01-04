@@ -1,0 +1,20 @@
+#readfeedback {
+    margin-left: 6em;
+    margin-top: 5em;
+    height: 30em;
+    width: 90%;
+    background: rgba(187, 130, 255, 0.21);
+    padding: 4em;
+    border: dashed 2px #9300ff;
+    border-radius: 10em
+}
+#readfeedback h1 {
+    font-family: rounds;
+    background: rgba(0, 98, 255, 0.08);
+    width: 5.6em;
+    border-radius: 1em;
+    padding: 0.1em
+}
+#space {
+    margin-bottom: 2em
+}

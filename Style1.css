@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import "http://fonts.fontstorage.com/import/rounds.css";
+@import "http://fonts.fontstorage.com/import/cheeseusaceu.css";
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    /*фон указан в html(body)*/
+    cursor: default;
+    overflow-x: none;
+    position: relative;
+}
+#navbarSupportedContent {
+    background: rgba(229, 179, 255, 0.56);
+    border-radius: 10px;
+}
+#navbarSupportedContent:hover {
+    background: rgb(246, 179, 255);
+    border-radius: 30px;
+}
+/***ССЫЛКА НА ВК В ХЕДЕРЕ***/
+#fixed {
+    margin-top: 100px ;
+    z-index: 10;
+    position: fixed
+}
+.iconvk {
+    margin: 4px;
+    height: 25px;
+}
+    .iconvk:hover {
+        transform: rotateZ(360deg)
+}
+#b_a {
+    background: rgba(69, 169, 255, 0.4);
+    color: #0031ff;
+    font-family: rounds;
+    border-radius: 10em;
+    padding: 0.5em
+}
+    #b_a:hover {
+        background: rgb(69, 169, 255);
+        color: aliceblue;
+        padding-left: 5em
+}/************************/

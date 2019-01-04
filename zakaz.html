@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokupka</title>
+    <link rel="stylesheet" href="Style6(buy).css">
+    <link href="https://pp.userapi.com/c844521/v844521715/163abf/38vQ9ftwA24.jpg" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body style="background:  linear-gradient(to top left, rgba(138, 255, 157, 0.63), rgba(193, 187, 255, 0.58)); height: 60em">
+    <!-----------NAVBAR-------------->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: rgba(149, 222, 255, 0.74); opacity:1">
+        <a href="#" class="navbar-brand">
+            <img src="https://pp.userapi.com/c849024/v849024919/e5876/MEEm_vXw-us.jpg" width="250" id="logo" onclick="slowScroll('header')">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expended="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://vk.com/mmmfffsss" class="nav-link">мы в VK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://vk.com/4ourty2woo" class="nav-link">По всем вопросам</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form action="mail.php" method="POST" name="forma1">
+        <br>ФИО:<br>
+        <input type="text" name="name" placeholder="Иванов Иван Иванович">
+        <br>E-mail:<br>
+        <input type="text" name="mail" placeholder="ivanov@mail.ru">
+        <br>Размер(S/M/L/oversize):<br>
+        <input type="text" name="size" placeholder="oversize">
+        <br>Адрес доставки:<br>
+        <input type="text" name="address" placeholder="г. Пермь, ул. Барнаульская 4, кв. 42">
+        <br>Комментарий продавцу(по желанию)<br>
+        <textarea maxlength="120" name="message">
+        </textarea><br>
+        <input id="ready" type="submit" value="Отправить">
+        <div id="card">Оплата:</div>
+        <div id="card1">Карта сбербанка: <a href="https://online.sberbank.ru/CSAFront/index.do" target="_blank">5469 4900 1258 7503</a><br>
+        Яндекс.Деньги: <a href="https://money.yandex.ru" target="_blank">410018385204345</a></div>
+        <div id="card2">
+            При переводе денег в сообщении получателю укажите ваше ФИО и название товара.<br> <b>Пример: Иванов Иван Иванович, Корабль 104</b>
+        </div>
+    </form>
+</body>
+</html>
